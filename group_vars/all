@@ -1,5 +1,5 @@
 ---
 sname: abrakadabra
 sfull: "abrakadabra Abc"
-file: /root/text1.txt
+file: "/root/text1.txt"
 
