@@ -1,7 +1,7 @@
-name: Setup a webserver.
-  hosts: all
-  become: sudo
-  tasks:
+---
+ - hosts: all
+   become: sudo
+   tasks:
     - name: install apache2
       apt:
         name: apache2
